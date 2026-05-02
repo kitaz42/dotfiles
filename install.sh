@@ -21,6 +21,8 @@ echo "Установка софта..."
 done
 
 DOT_DIR=$(pwd)
+
+mkdir -p ~/.config
 ln -sf "$DOT_DIR/hypr" ~/.config/
 ln -sf "$DOT_DIR/kitty" ~/.config/
 ln -sf "$DOT_DIR/waybar" ~/.config/
