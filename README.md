@@ -2,7 +2,7 @@
 
 кааайф оч круто но для амд не подойдет, только для нвидиа 
 
-- **OS:** CachyOS (Arch Linux based)
+- **OS:** - Arch Linux (NO ARCHINSTALL) with repositories and the CacheOS kernel
 - **WM:** Hyprland
 - **PC components:** NVIDIA Geforce RTX 2060 SUPER/Ryzen 5 3600/24GB RAM.
 
