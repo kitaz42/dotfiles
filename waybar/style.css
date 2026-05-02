@@ -15,6 +15,11 @@ window#waybar {
     transition-duration: .5s;
 }
 
+#workspaces {
+	padding: 0 10px;
+	 background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 30px
+}
 /* Стили для рабочих столов (цифр) */
 #workspaces button {
     padding: 5px 10px;

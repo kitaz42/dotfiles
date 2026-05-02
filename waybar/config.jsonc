@@ -6,7 +6,7 @@
     "margin-right": 10,
     "spacing": 5,
 
-    "modules-left": ["custom/spotify "],
+    "modules-left": ["custom/spotify"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["pulseaudio", "memory", "clock"],
 
