@@ -1,7 +1,7 @@
 # 🐧 kitaz42 dotfiles
 
 кааайф оч круто но для амд не подойдет, только для нвидиа 
-
+Внимание: Эти конфиги настроены под мои комплектующие. Используйте на свой страх и риск. Я не несу ответственности за сломанные системы или взорванные мониторы.
 - **OS:** - Arch Linux (NO ARCHINSTALL) with repositories and the CacheOS kernel
 - **WM:** Hyprland
 - **PC components:** NVIDIA Geforce RTX 2060 SUPER/Ryzen 5 3600/24GB RAM.
