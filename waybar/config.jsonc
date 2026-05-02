@@ -1,0 +1,43 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 5,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 5,
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["custom/spotify"],
+    "modules-right": ["pulseaudio", "memory", "clock"],
+
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "format": "{name}"
+    },
+
+    "custom/spotify": {
+        "format": "  {}",
+        "max-length": 40,
+        "interval": 1,
+        "exec": "playerctl -p spotify metadata --format '{{artist}} - {{title}}'",
+        "exec-if": "pgrep spotify",
+        "on-click": "playerctl -p spotify play-pause"
+    },
+
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "on-click": "pavucontrol",
+        "format-icons": {
+            "default": ["", "", ""]
+        }
+    },
+
+    "memory": {
+        "format": "  {}%",
+        "on-click": "kitty btop"
+    },
+
+    "clock": {
+        "format": "  {:%H:%M}"
+    }
+}

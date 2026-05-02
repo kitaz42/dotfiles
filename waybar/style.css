@@ -1,0 +1,81 @@
+/* Общие настройки шрифта */
+* {
+    font-family: "JetBrainsMono Nerd Font", "Roboto", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Основное окно панели */
+window#waybar {
+	background: rgba(0, 0, 0, 0);
+    /* background-color: rgba(26, 27, 38, 0.8); Темно-синий полупрозрачный  */
+    border-radius: 30px;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Стили для рабочих столов (цифр) */
+#workspaces button {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 8px;
+    margin: 4px 2px;
+	border-radius: 30px;
+}
+
+/* Активный рабочий стол (на котором ты сейчас) */
+#workspaces button.active {
+    background-color:  #ff69b4;
+    color: #ffffff;
+	border-radius: 30px;
+}
+
+/* Модули справа (часы, звук и т.д.) */
+#clock, #pulseaudio, #memory, #custom-spotify {
+    padding: 0 15px;
+    margin: 4px 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+
+/* Цвет для Spotify */
+#custom-spotify {
+    color: #1db954;
+}
+
+/* Цвет для часов */
+#clock {
+    color: #ffffff;
+}
+
+/* Добавляем переход для всех модулей */
+#workspaces button, 
+#clock, 
+#pulseaudio, 
+#memory, 
+#custom-spotify {
+    transition: all 0.3s cubic-bezier(.55,-0.04,.3,1.44); /* Мягкий эффект "отскока" */
+}
+
+/* Эффект при наведении на воркспейсы */
+#workspaces button:hover {
+    background: #ff69b4;
+}
+
+/* Эффект при наведении на системные модули */
+/* Вместо трансформации используем изменение яркости фона */
+#clock:hover, 
+#pulseaudio:hover, 
+#memory:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Делаем светлее при наведении */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Добавляем четкую рамку */
+}
+
+/* Особенный эффект для Spotify */
+#custom-spotify:hover {
+    background-color: rgba(29, 185, 84, 0.2); /* Зеленоватый отсвет */
+    color: #1ed760; /* Более яркий зеленый */
+}
+
