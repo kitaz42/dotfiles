@@ -2,7 +2,7 @@
 
 каааайф оч круто но для амд не подойдет, только для нвидиа 
 
-- **OS:** CachyOS (Arch Linux based)
+- **OS:** Arch Linux (NO ARCHINSTALL) with repositories and the Cache OS kernel
 - **WM:** Hyprland
 - **Shell:** Zsh (+ syntax-highlighting & autosuggestions)
 - **Terminal:** Kitty / Alacritty
