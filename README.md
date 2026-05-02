@@ -1,9 +1,11 @@
 # 🐧 kitaz42 dotfiles
 
-каааайф оч круто но для амд не подойдет, только для нвидиа 
+кааайф оч круто но для амд не подойдет, только для нвидиа 
 
-- **OS:** Arch Linux (NO ARCHINSTALL) with repositories and the Cache OS kernel
+- **OS:** CachyOS (Arch Linux based)
 - **WM:** Hyprland
+- **PC components:** NVIDIA Geforce RTX 2060 SUPER/Ryzen 5 3600/24GB RAM.
+
 - **Shell:** Zsh (+ syntax-highlighting & autosuggestions)
 - **Terminal:** Kitty / Alacritty
 
