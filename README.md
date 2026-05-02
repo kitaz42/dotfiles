@@ -9,6 +9,8 @@
 - **Shell:** Zsh (+ syntax-highlighting & autosuggestions)
 - **Terminal:** Kitty / Alacritty
 
+![Setup](screenshot.png)
+
 ## 🚀 Быстрый старт
 
 ```bash
