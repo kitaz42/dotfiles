@@ -30,5 +30,5 @@ lazygit() {
     git push
 }
 run() {
-	"@" & disown
+	"$@" & disown
 }

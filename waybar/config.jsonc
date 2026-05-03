@@ -8,16 +8,20 @@
 
     "modules-left": ["custom/spotify"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["pulseaudio", "memory", "clock"],
+    "modules-right": ["pulseaudio", "memory", "clock", "hyprland/language"],
 
     "hyprland/workspaces": {
         "on-click": "activate",
         "format": "{name}"
     },
-
+"hyprland/language": {
+	"format": "{}", 
+    "format-en": "US",
+    "format-ru": "RU"
+},
     "custom/spotify": {
         "format": "  {}",
-        "max-length": 40,
+        "max-length": 60,
         "interval": 1,
         "exec": "playerctl -p spotify metadata --format '{{artist}} - {{title}}'",
         "exec-if": "pgrep spotify",

@@ -38,7 +38,7 @@ window#waybar {
 }
 
 /* Модули справа (часы, звук и т.д.) */
-#clock, #pulseaudio, #memory, #custom-spotify {
+#clock, #pulseaudio, #memory, #custom-spotify, #language {
     padding: 0 15px;
     margin: 4px 5px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -84,3 +84,4 @@ window#waybar {
     color: #1ed760; /* Более яркий зеленый */
 }
 
+ 
