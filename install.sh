@@ -18,11 +18,16 @@ echo "Установка софта..."
         echo "$pkg уже установлен"
     else
         echo "Устанавливаю $pkg..."
-        sudo pacman -S --noconfirm "$pkg"
+        if sudo pacman -S --noconfirm "$pkg"; then
+	echo "Пакет $pkg успешно установлен"
+	else 
+		echo "Не удалось установить $pkg"
+		exit 1
+	fi
     fi
 done
 
-DOT_DIR=$(pwd)
+DOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 echo "Удаляем старые пути (если есть)..."
 rm -rf ~/.config/hypr

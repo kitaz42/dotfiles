@@ -14,7 +14,6 @@
 
 ```bash
 git clone https://github.com/kitaz42/dotfiles.git
-cd dotfiles
 chmod +x install.sh
 ./install.sh
 ```
