@@ -29,3 +29,6 @@ lazygit() {
     git commit -m "$1"
     git push
 }
+run() {
+	"@" & disown
+}
