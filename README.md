@@ -19,4 +19,3 @@ chmod +x install.sh
 ```
 
 > **Warning**: Скрипт заменяет существующие конфиги в `~/.config/hypr` символическими ссылками. Также в hyprland.conf 74.97 на свою
-# dotfiles
