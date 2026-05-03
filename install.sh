@@ -24,6 +24,11 @@ done
 
 DOT_DIR=$(pwd)
 
+echo "Удаляем старые пути (если есть)..."
+rm -rf ~/.config/hypr
+rm -rf ~/.config/kitty
+rm -rf ~/.config/waybar
+
 mkdir -p ~/.config
 ln -sf "$DOT_DIR/hypr" ~/.config/
 ln -sf "$DOT_DIR/kitty" ~/.config/
